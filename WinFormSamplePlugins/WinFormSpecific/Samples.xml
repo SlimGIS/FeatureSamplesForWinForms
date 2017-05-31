@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<samples>
+  <sample name="Use overlays" type="UseOverlaysControl" uri="https://www.github.com">Overlay is a higher level API to host layers. Group layers that are going to change often together into one overlay; it brings better refresh performance. See this sample how to use overlays.</sample>
+  <!--<sample name="Switch overlays" type="SwitchOverlaysView" uri="https://www.github.com">This sample shows how to switch base overlays. Click the radio buttons below.</sample>
+  <sample name="Clip overlays" type="ClipOverlaysView" uri="https://www.github.com">This sample shows how to clip base overlays. The left half is open street map; while the right half is stamen map with terrain style.</sample>-->
+  <sample name="Use markers" type="UseMarkersControl" uri="https://www.github.com">This sample shows how to use markers.</sample>
+  <sample name="Use popup" type="UsePopupControl" uri="https://www.github.com">This sample shows how to use popup. Click a place on the map, type some information and press "Add" button to set a popup on the map.</sample>
+  <sample name="Use build-in tools" type="UseBuildInToolsControl" uri="https://www.github.com">This sample shows how add build-in tools.</sample>
+  <sample name="Draw geometries" type="DrawGeometryControl" uri="https://www.github.com">This sample shows how draw geometries on map. Click the radio buttons below to turn on the track mode.</sample>
+  <sample name="Edit geometries" type="EditGeometryControl" uri="https://www.github.com">This sample shows how edit geometries on map. Click the checkboxes below to turn on the edit option.</sample>
+  <!--<sample name="Rotate map" type="RotateMapView" uri="https://www.github.com">This sample shows how to rotate the map. Click the compass on the upper right corner to reset to default angle.</sample>-->
+</samples>

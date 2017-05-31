@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<samples>
+  <sample name="Spatial query" type="SpatialQueryControl" uri="https://www.github.com">This sample shows how to do a spatial query from a feature source. Click the buttons below to take effects.</sample>
+  <sample name="Transform a geometry" type="TransformAGeometryControl" uri="https://www.github.com">This sample shows how to transform a geometry, including scale up, scale down and rotate. Click the buttons below to take effects.</sample>
+  <sample name="Get bound and center" type="GetBoundAndCenterControl" uri="https://www.github.com">This sample shows how to get bound and center of an identified feature. Try to click a country on the map.</sample>
+  <sample name="Get shortest line" type="GetShortestLineControl" uri="https://www.github.com">This sample shows how to get the shortest line between two geometries.</sample>
+  <sample name="Get intersection" type="GetIntersectionControl" uri="https://www.github.com">This sample shows how to get intersection between two geometries.</sample>
+  <sample name="Get distance" type="GetDistanceControl" uri="https://www.github.com">This sample shows how to get distance between two geometries. Also try to change the distance unit and see the conversion.</sample>
+  <sample name="Buffer geometry" type="BufferGeometryControl" uri="https://www.github.com">This sample shows how to buffer a specified geometry.</sample>
+  <sample name="Get convex hull" type="GetConvexHullControl" uri="https://www.github.com">This sample shows how to get convext hull of a geometry. Click the button below and watch the highlight feature area.</sample>
+  <sample name="Get crossing points" type="GetCrossingPointsControl" uri="https://www.github.com">This sample shows how to get points that cross a specified geometry.</sample>
+  <sample name="Get union" type="GetUnionControl" uri="https://www.github.com">This sample shows how to get the unioned geometry of two specified geometries.</sample>
+  <sample name="Get difference" type="GetDifferenceControl" uri="https://www.github.com">This sample shows how to get the difference between two specified geometries.</sample>
+  <sample name="Find the closest point" type="FindClosestPointControl" uri="https://www.github.com">This sample shows how to find a closest point from current mouse location to a specified geometry. Move the mouse around and see the circle on the bound of the highlight feature.</sample>
+</samples>

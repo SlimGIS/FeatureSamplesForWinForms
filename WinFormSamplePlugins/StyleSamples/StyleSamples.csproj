@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{40F16E56-CFBC-4A39-AA48-2D1989F03E9D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SlimGis.Samples</RootNamespace>
+    <AssemblyName>SlimGis.Samples.StyleSamples</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\WinFormSampleManager\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\WinFormSampleManager\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SGMapKit.Core, Version=3.0.3.0, Culture=neutral, PublicKeyToken=77c845dea9a04899, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\SGMapKit.Core.3.0.3\lib\net40\SGMapKit.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SGMapKit.WinForms, Version=3.0.3.0, Culture=neutral, PublicKeyToken=77c845dea9a04899, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\SGMapKit.WinForms.3.0.3\lib\net40\SGMapKit.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StyleSampleCategory.cs" />
+    <Compile Include="Samples\UseFillStyleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Samples\UseFillStyleControl.Designer.cs">
+      <DependentUpon>UseFillStyleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\UseHeatStyleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Samples\UseHeatStyleControl.Designer.cs">
+      <DependentUpon>UseHeatStyleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\UseLabelStyleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Samples\UseLabelStyleControl.Designer.cs">
+      <DependentUpon>UseLabelStyleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\UseLineStyleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Samples\UseLineStyleControl.Designer.cs">
+      <DependentUpon>UseLineStyleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\UsePointStyleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Samples\UsePointStyleControl.Designer.cs">
+      <DependentUpon>UsePointStyleControl.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\WinFormSampleCore\WinFormSampleCore.csproj">
+      <Project>{3da42340-e864-413d-94d5-ea3d0d456cac}</Project>
+      <Name>WinFormSampleCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples.xml" />
+    <EmbeddedResource Include="Samples\UseFillStyleControl.resx">
+      <DependentUpon>UseFillStyleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Samples\UseHeatStyleControl.resx">
+      <DependentUpon>UseHeatStyleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Samples\UseLabelStyleControl.resx">
+      <DependentUpon>UseLabelStyleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Samples\UseLineStyleControl.resx">
+      <DependentUpon>UseLineStyleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Samples\UsePointStyleControl.resx">
+      <DependentUpon>UsePointStyleControl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
