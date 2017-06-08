@@ -33,8 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SGMapKit.Core, Version=3.0.3.0, Culture=neutral, PublicKeyToken=77c845dea9a04899, processorArchitecture=MSIL">
-      <HintPath>..\packages\SGMapKit.Core.3.0.3\lib\net40\SGMapKit.Core.dll</HintPath>
+    <Reference Include="SGMapKit.Core, Version=3.0.6.0, Culture=neutral, PublicKeyToken=77c845dea9a04899, processorArchitecture=MSIL">
+      <HintPath>..\packages\SGMapKit.Core.3.0.6\lib\net40\SGMapKit.Core.dll</HintPath>
     </Reference>
     <Reference Include="SGShareKit.WinForms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SGShareKit.WinForms.1.0.0\lib\net40\SGShareKit.WinForms.dll</HintPath>
