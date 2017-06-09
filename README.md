@@ -1,4 +1,4 @@
-# SlimGIS MapKit Basic Samples for WinForms
+# Feature Samples for WinForms Map Kit
 
 In the [previous thread](https://github.com/SlimGIS/QuickstartSampleForWinForms), we guided you to walk through a simple quick start sample of SlimGIS MapKit for WinForms. In this thread, we will show you more features. Here is a preview of our samples.
 
@@ -46,3 +46,11 @@ Styles and renderers are the objects that are used to render the spatial data. W
 In this part, we will show you more specific features that only WinForms owns. We have many build-in features like popup, marker, track & editi, map controls and more. Take a tour here.
 
 ![winforms-spec-clip-overlay](http://p1.bqimg.com/567571/5183999d070d621b.png)
+
+### Related Resources
+
+- [Source code](https://github.com/SlimGIS/QuickstartSampleForWinForms)
+- [Installation guide](http://www.slimgis.com/developers/installation)
+- [WinForms getting start](https://www.slimgis.com/developers/getting-started-winforms)
+- [WinForms feature list](https://www.slimgis.com/developers/features-overview-winforms)
+- [WinForms API reference](https://www.slimgis.com/developers/api-ref-winforms)
