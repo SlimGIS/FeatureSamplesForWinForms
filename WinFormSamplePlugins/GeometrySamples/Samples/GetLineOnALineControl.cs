@@ -70,7 +70,7 @@ namespace SlimGis.Samples
             highlightLayer.Features.Clear();
 
             if (line != null) highlightLayer.Features.Add(new Feature(line));
-            MapContent.Refresh("HighlightOverlay");
+            if (!MapContent.IsDisposed) MapContent.Refresh("HighlightOverlay");
 
             await Task.Run(() => Thread.Sleep(50));
         }

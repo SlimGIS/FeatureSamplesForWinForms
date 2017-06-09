@@ -89,7 +89,7 @@ namespace SlimGis.Samples
                     highlightLayer.Styles.OfType<IconStyle>().First().Rotation = degree;
                 }
             }
-            MapContent.Refresh("HighlightOverlay");
+            if (!MapContent.IsDisposed) MapContent.Refresh("HighlightOverlay");
 
             await Task.Run(() => Thread.Sleep(50));
         }

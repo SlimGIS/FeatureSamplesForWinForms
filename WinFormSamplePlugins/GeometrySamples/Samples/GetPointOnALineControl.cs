@@ -69,7 +69,7 @@ namespace SlimGis.Samples
             GeoPoint point = await Task.Run(() => baseline.GetPoint((float)percentageRatio * i));
             highlightLayer.Features.Clear();
             highlightLayer.Features.Add(new Feature(point));
-            MapContent.Refresh("HighlightOverlay");
+            if (!MapContent.IsDisposed) MapContent.Refresh("HighlightOverlay");
 
             await Task.Run(() => Thread.Sleep(50));
         }
