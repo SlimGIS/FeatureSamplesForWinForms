@@ -1,6 +1,6 @@
 # Feature Samples for WinForms Map Kit
 
-In the [previous thread](https://github.com/SlimGIS/QuickstartSampleForWinForms), we guided you to walk through a simple quick start sample of SlimGIS MapKit for WinForms. In this thread, we will show you more features. Here is a preview of our samples.
+In the [previous thread](https://slimgis.com/documents/getting-started-winforms), we guided you to walk through a simple quick start sample of SlimGIS MapKit for WinForms. In this thread, we will show you more features. Here is a preview of our samples.
 
 > This project includes a runtime license. If your trial license is expired, it still can run without limit by "ctrl + F5" in Visual Studio. Or download [the executable](https://github.com/SlimGIS/FeatureSamplesForWinForms/releases) directly and try. 
 
@@ -50,7 +50,8 @@ In this part, we will show you more specific features that only WinForms owns. W
 ### Related Resources
 
 - [Source code](https://github.com/SlimGIS/QuickstartSampleForWinForms)
-- [Installation guide](http://www.slimgis.com/developers/installation)
-- [WinForms getting start](https://www.slimgis.com/developers/getting-started-winforms)
-- [WinForms feature list](https://www.slimgis.com/developers/features-overview-winforms)
-- [WinForms API reference](https://www.slimgis.com/developers/api-ref-winforms)
+- [Installation guide](http://www.slimgis.com/documents/installation)
+- [Map Kit WinForms introduction](https://slimgis.com/products/winforms)
+- [WinForms getting start](https://www.slimgis.com/documents/getting-started-winforms)
+- [WinForms feature list](https://www.slimgis.com/documents/features-overview-winforms)
+- [WinForms API reference](https://www.slimgis.com/documents/api-ref-winforms)
