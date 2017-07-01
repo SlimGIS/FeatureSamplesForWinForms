@@ -7,6 +7,6 @@
             Name = "Spatial Function Samples";
         }
 
-        protected override string SampleListManifestResourceName => "SlimGis.Samples.Samples.xml";
+        protected override string SampleListManifestResourceName => "SlimGis.Samples.Samples.SpatialFunc.Samples.xml";
     }
 }

@@ -7,6 +7,6 @@
             Name = "WinForm Specific";
         }
 
-        protected override string SampleListManifestResourceName => "SlimGis.Samples.Samples.xml";
+        protected override string SampleListManifestResourceName => "SlimGis.Samples.Samples.WinFormSpecific.Samples.xml";
     }
 }

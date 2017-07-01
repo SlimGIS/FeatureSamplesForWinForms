@@ -7,6 +7,6 @@
             Name = "Layer Samples";
         }
 
-        protected override string SampleListManifestResourceName => "SlimGis.Samples.Samples.xml";
+        protected override string SampleListManifestResourceName => "SlimGis.Samples.Samples.Layer.Samples.xml";
     }
 }

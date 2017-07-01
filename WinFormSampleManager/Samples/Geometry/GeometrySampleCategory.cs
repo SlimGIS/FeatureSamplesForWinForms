@@ -7,6 +7,6 @@
             Name = "Geometry Samples";
         }
 
-        protected override string SampleListManifestResourceName => "SlimGis.Samples.Samples.xml";
+        protected override string SampleListManifestResourceName => "SlimGis.Samples.Samples.Geometry.Samples.xml";
     }
 }

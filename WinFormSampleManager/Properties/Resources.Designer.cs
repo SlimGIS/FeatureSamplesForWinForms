@@ -63,6 +63,36 @@ namespace SlimGis.Samples.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _6x9_icons_50 {
+            get {
+                object obj = ResourceManager.GetObject("_6x9_icons_50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap airplane {
+            get {
+                object obj = ResourceManager.GetObject("airplane", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bank {
+            get {
+                object obj = ResourceManager.GetObject("Bank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fullscreen {
             get {
                 object obj = ResourceManager.GetObject("fullscreen", resourceCulture);
@@ -76,6 +106,26 @@ namespace SlimGis.Samples.Properties {
         internal static System.Drawing.Bitmap fullscreen_exit {
             get {
                 object obj = ResourceManager.GetObject("fullscreen_exit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Park {
+            get {
+                object obj = ResourceManager.GetObject("Park", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sports {
+            get {
+                object obj = ResourceManager.GetObject("Sports", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -75,6 +75,7 @@ namespace SlimGis.Samples
                     }
                     catch { }
                 }
+                catalog.Catalogs.Add(new AssemblyCatalog(Assembly.GetExecutingAssembly()));
 
                 CompositionContainer container = new CompositionContainer(catalog);
                 Collection<SampleCategoryPlugin> plugins = new Collection<SampleCategoryPlugin>();

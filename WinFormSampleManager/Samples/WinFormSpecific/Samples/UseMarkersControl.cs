@@ -1,6 +1,7 @@
 ﻿using SlimGis.MapKit.Geometries;
 using SlimGis.MapKit.Symbologies;
 using SlimGis.MapKit.WinForms;
+using SlimGis.Samples.Properties;
 using System;
 using System.Windows.Forms;
 
