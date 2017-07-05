@@ -24,7 +24,7 @@ namespace SlimGis.Samples
 
             GeoBound bound = (GeoBound)MapContent.MaxBound.Clone();
             bound.ScaleDown(60);
-            MapContent.Behaviors.EditBehavior.EditingFeatures.Add(new Feature(bound));
+            MapContent.Behaviors.EditBehavior.Features.Add(new Feature(bound));
 
             MapContent.ZoomToFullBound();
         }
@@ -33,7 +33,7 @@ namespace SlimGis.Samples
         {
             MapContent.Behaviors.EditBehavior.CanReshape = reshapeCheckBox.Checked;
             MapContent.Behaviors.EditBehavior.CanResize = resizeCheckBox.Checked;
-            MapContent.Behaviors.EditBehavior.CanRotation = rotateCheckBox.Checked;
+            MapContent.Behaviors.EditBehavior.CanRotate = rotateCheckBox.Checked;
             MapContent.Behaviors.EditBehavior.CanTranslate = translateCheckBox.Checked;
             MapContent.Behaviors.EditBehavior.Refresh();
         }
