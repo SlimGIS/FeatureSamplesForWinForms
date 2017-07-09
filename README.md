@@ -2,7 +2,7 @@ Keywords:   gis mapping software, mapping software, winforms map, map sample
 
 # Feature Samples for WinForms Map Kit
 
-This page is going to show you the WinForms map samples that are categorized by function. You will find interesting and useful samples to integrate into your own gis mapping software. 
+<desc>This page is going to show you the WinForms map samples that are categorized by function. You will find interesting and useful samples to integrate into your own gis mapping software. </desc>
 
 > This project includes a runtime license. If your trial license is expired, it still can run without limit by "ctrl + F5" in Visual Studio. Or download [the executable](https://github.com/SlimGIS/FeatureSamplesForWinForms/releases) directly and try. 
 
